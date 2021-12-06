@@ -4,13 +4,12 @@ main {
 
 .testimonial {
   font-size: 1.2rem;
-  /* margin: 3rem 0; */
 }
 
-/* .testimonial__list {
-  width: 80%;
-  margin: auto;
-} */
+/*.testimonial__list {
+    width: 80%;
+    margin: auto;
+  }*/
 
 .testimonial__image-container {
   width: 100%;
@@ -62,7 +61,7 @@ main {
   margin: 0.2rem;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 40rem) {
   .testimonial {
     margin: 3rem auto;
     max-width: 1500px;

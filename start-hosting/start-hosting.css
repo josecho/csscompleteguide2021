@@ -1,5 +1,5 @@
 main {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .signup-title {
@@ -24,7 +24,7 @@ main {
   width: 100%;
 }
 
-/* .signup-form input[type="checkbox"]{ */
+/* .signup-form input[type="checkbox"] */
 .signup-form input[id*='terms'],
 .signup-form input[id*='terms'] + label {
   display: inline-block;
@@ -65,7 +65,7 @@ main {
 .signup-form select.invalid,
 .signup-form :invalid {
   border-color: red !important;
-  background: rgb(250, 172, 172);
+  background: #faacac;
 }
 
 .signup-form button[type='submit'] {

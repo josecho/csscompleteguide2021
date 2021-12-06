@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 * {
   box-sizing: border-box;
 }
@@ -121,10 +125,11 @@ main {
   border: none;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 40rem) {
   .toggle-button {
     display: none;
   }
+
   .main-nav {
     display: inline-block;
     text-align: right;
@@ -221,7 +226,7 @@ main {
   display: block !important;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 40rem) {
   .main-footer__link {
     display: inline-block;
     margin: 0 1rem;
